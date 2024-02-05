@@ -1,0 +1,132 @@
+
+
+.burger-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.burger-menu{
+    background-color: rgb(215, 215, 215);
+    height: 160vh;
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-navSide{
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    p, h1, img{
+        cursor: pointer;
+    }
+
+    .btn-side{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+        button{
+            border: none;
+            background-color: transparent;
+            font-weight: 600;
+            margin: 0px 10px;
+            padding: 8px 15px;
+        }
+
+        button:nth-child(2):hover{
+            border: 1px solid black;
+            border-radius: 9px;
+        }
+    }
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+
+    .modal-1{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: start;
+        background-color: hsl(0, 0%, 90%);
+        padding: 20px;
+        border-radius: 20px;
+        top: 70px;
+        left: 275px;
+        div{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: start;
+            p{
+                margin: 3px;
+            }
+        }
+    }
+
+    .modal-2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: start;
+        background-color: hsl(0, 0%, 90%);
+        padding: 25px;
+        border-radius: 20px;
+        top: 70px;
+        p{
+            margin: 3px;
+        }
+        left: 425px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .text-navSide{
+        margin-left: 150px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    p, h1, img{
+        cursor: pointer;
+    }
+
+    .btn-side{
+        button{
+            border: none;
+            background-color: transparent;
+            font-weight: 600;
+            margin: 0px 10px;
+            padding: 8px 15px;
+        }
+
+        button:nth-child(2):hover{
+            border: 1px solid black;
+            border-radius: 9px;
+        }
+    }
+
+}
